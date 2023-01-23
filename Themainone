@@ -1,0 +1,58 @@
+function starsv(n){
+    try{
+        let iop=
+        document.querySelectorAll("[data-index]")[n].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[1].childNodes[2].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[0].innerHTML;
+        let iopl = document.querySelectorAll("[data-index]")[n].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[1].childNodes[2].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[0].innerHTML.length-15;
+        let ss = iop.substring(0,iopl);
+        return ss;
+    }catch(error){
+        let yu = 0;
+    }}
+
+function asd(){
+    var hn = [];
+    try{
+        for(let i = 0; i<100; i++){
+hn[i] = starsv(i);
+            
+        }
+    }catch{
+        let iopiop = 0;
+    }
+    return hn;
+}
+function getNumsda(sts){
+    let stl = sts.length;
+    let arx = [];
+    let n = 0;
+    for(let i = 0; i<stl; i++){
+        if(sts[i] == "."){
+            let bdf = 0;
+        }else{
+            arx[n] = sts[i];
+            n++;
+        }
+    }
+    var num = "1";
+    for(let i = 0; i<arx.length; i++){
+        num += arx[i];
+}
+    return num.substring(1,num.length);
+}
+function checksda(){
+    let arxy = [];
+    let n =0;
+        for(let i =0;i<100;i++){
+            try{
+            if(parseInt(getNumsda(asd()[i]))>45){
+                arxy[n] = i;
+                console.log("works");
+                n++;
+            }else{
+                let ght = 0;
+            }
+            }catch(error){
+                let ght=0;}
+        }
+    return arxy;
+}
