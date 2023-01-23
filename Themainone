@@ -73,3 +73,31 @@ function idee(){
         }
     return arxy;
 }
+var haid = idee();
+var len = haid.length
+var arru = [];
+for(let i = 0; i<1000; i++){
+    arru[i] = 0;
+}
+for(let i =0; i<len;i++){
+    arru[haid[i]] = 1;
+}
+var listss = [];
+var countt = 0;
+for(let i = 0; i<big; i++){
+    try{
+    if(arru[i] == 0){
+        listss[countt] = document.querySelectorAll("[data-index]")[i];
+        countt++;
+    }else{
+        let un = 0;
+    }
+    }catch(error){
+        let unuu = 0;
+    }
+}
+function remove(){
+    for(let i = 0; i<countt; i++){
+    listss[i].remove();
+}
+}
