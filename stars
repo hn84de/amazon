@@ -1,0 +1,10 @@
+function stars(n){
+    try{
+        let iop=
+        document.querySelectorAll("[data-index]")[n].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[1].childNodes[2].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[0].innerHTML;
+        let iopl = document.querySelectorAll("[data-index]")[n].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[1].childNodes[2].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[0].innerHTML.length-15;
+        let ss = iop.substring(0,iopl);
+        console.log(ss);
+    }catch(error){
+        let yu = 0;
+    }}
