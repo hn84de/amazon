@@ -1,0 +1,29 @@
+function starsv(n){
+    try{
+        let iop=
+        document.querySelectorAll("[data-index]")[n].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[1].childNodes[2].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[0].innerHTML;
+        let iopl = document.querySelectorAll("[data-index]")[n].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[1].childNodes[2].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[0].innerHTML.length-15;
+        let ss = iop.substring(0,iopl);
+        console.log(ss);
+        return ss;
+    }catch(error){
+        let yu = 0;
+    }}
+
+
+
+function rem(){
+for(let i = 0; i<100; i++){
+
+    try{
+        if(parseInt(starsv(i))<4.5){
+            let rm = document.querySelectorAll("[data-index]")[i];
+            rm.remove();
+        }else{
+            let mea = 0;
+        }
+    }catch(error){
+let meaninglessVariable = 0;
+    }
+}
+}
