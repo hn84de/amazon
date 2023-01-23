@@ -82,6 +82,7 @@ for(let i = 0; i<1000; i++){
 for(let i =0; i<len;i++){
     arru[haid[i]] = 1;
 }
+var big = document.querySelectorAll("[data-index]").length;
 var listss = [];
 var countt = 0;
 for(let i = 0; i<big; i++){
