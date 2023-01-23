@@ -56,3 +56,20 @@ function checksda(){
         }
     return arxy;
 }
+function idee(){
+    var arxy = [];
+    let n =0;
+        for(let i =0;i<100;i++){
+            try{
+            if(parseInt(getNumsda(asd()[i]))>45){
+                arxy[n] = i;
+                console.log(i);
+                n++;
+            }else{
+                let ght = 0;
+            }
+            }catch(error){
+                let ght=0;}
+        }
+    return arxy;
+}
