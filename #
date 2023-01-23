@@ -1,0 +1,18 @@
+function getNumsda(sts){
+    let stl = sts.length;
+    let arx = [];
+    let n = 0;
+    for(let i = 0; i<stl; i++){
+        if(sts[i] == "."){
+            let bdf = 0;
+        }else{
+            arx[n] = sts[i];
+            n++;
+        }
+    }
+    var num = "1";
+    for(let i = 0; i<arx.length; i++){
+        num += arx[i];
+}
+    return num.substring(1,num.length);
+}
