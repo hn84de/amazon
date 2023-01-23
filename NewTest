@@ -86,6 +86,6 @@ for(let i = 0; i<big; i++){
 }
 }
 
-
+//USE "remove();" AND USE THE NUMBER OF STARS TO FILTER
 
 
