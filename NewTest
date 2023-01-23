@@ -48,7 +48,6 @@ var arxy = [];
             try{
             if(parseInt(getNumsda(asd()[i]))>(ty*10)){
                 arxy[n] = i;
-                console.log(i);
                 n++;
             }else{
                 let ght = 0;
