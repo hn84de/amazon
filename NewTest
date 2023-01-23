@@ -1,0 +1,92 @@
+function starsv(n){
+    try{
+        let iop=
+        document.querySelectorAll("[data-index]")[n].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[1].childNodes[2].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[0].innerHTML;
+        let iopl = document.querySelectorAll("[data-index]")[n].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[1].childNodes[2].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[0].innerHTML.length-15;
+        let ss = iop.substring(0,iopl);
+        return ss;
+    }catch(error){
+        let yu = 0;
+    }}
+
+function asd(){
+    var hn = [];
+    try{
+        for(let i = 0; i<100; i++){
+hn[i] = starsv(i);
+            
+        }
+    }catch{
+        let iopiop = 0;
+    }
+    return hn;
+}
+function getNumsda(sts){
+    let stl = sts.length;
+    let arx = [];
+    let n = 0;
+    for(let i = 0; i<stl; i++){
+        if(sts[i] == "."){
+            let bdf = 0;
+        }else{
+            arx[n] = sts[i];
+            n++;
+        }
+    }
+    var num = "1";
+    for(let i = 0; i<arx.length; i++){
+        num += arx[i];
+}
+    return num.substring(1,num.length);
+}
+
+
+function remove(ty){
+var arxy = [];
+    let n =0;
+        for(let i =0;i<100;i++){
+            try{
+            if(parseInt(getNumsda(asd()[i]))>(ty*10)){
+                arxy[n] = i;
+                console.log(i);
+                n++;
+            }else{
+                let ght = 0;
+            }
+            }catch(error){
+                let ght=0;}
+        }
+        var haid = arxy;
+        var len = haid.length
+        var arru = [];
+for(let i = 0; i<1000; i++){
+    arru[i] = 0;
+}
+for(let i =0; i<len;i++){
+    arru[haid[i]] = 1;
+}
+var big = document.querySelectorAll("[data-index]").length;
+var listss = [];
+var countt = 0;
+for(let i = 0; i<big; i++){
+    try{
+    if(arru[i] == 0){
+        listss[countt] = document.querySelectorAll("[data-index]")[i];
+        countt++;
+    }else{
+        let un = 0;
+    }
+    }catch(error){
+        let unuu = 0;
+    }
+}
+        
+        
+    for(let i = 0; i<countt; i++){
+    listss[i].remove();
+}
+}
+
+
+
+
